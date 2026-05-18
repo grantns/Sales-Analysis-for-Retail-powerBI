@@ -37,6 +37,20 @@ This page serves as an executive summary, evaluating the company's performance a
 
 
 
+### Tools
+- Micosoft Excel
+- Power BI
 
+ ### Data Cleaning
 
- 
+Excel (Power Query) was used to clean and transform the raw data for this project. Power Query functions as an automated data pipeline, recording every cleaning action as a sequential step in a "recipe." This ensures that when new retail data is added, the entire cleaning process runs automatically at the click of a button.
+
+The steps taken to clean the data included:
+  1. Handling Missing and Null Values
+  2. Standardizing Text and Case
+  3. Data Type Formatting
+  4. Splitting and Extracting Geographical Data
+  5. Deduplication
+
+### Exploratory Data Analysis
+
