@@ -1,6 +1,7 @@
 # Sales Analysis for Retail
-
+ 
 ### Project Overview
+---
 
 This project is a Retail Sales Analysis Dashboard built in Power BI. Its primary objective is to track, analyze, and visualize key performance indicators (KPIs) related to retail revenue, profitability, regional performance, and salesperson productivity over time (specifically covering the years 2022 to 2024).
 
@@ -38,11 +39,12 @@ This page serves as an executive summary, evaluating the company's performance a
 
 
 ### Tools
+---
 - Micosoft Excel
 - Power BI
 
  ### Data Cleaning
-
+---
 Excel (Power Query) was used to clean and transform the raw data for this project. Power Query functions as an automated data pipeline, recording every cleaning action as a sequential step in a "recipe." This ensures that when new retail data is added, the entire cleaning process runs automatically at the click of a button.
 
 The steps taken to clean the data included:
@@ -53,4 +55,42 @@ The steps taken to clean the data included:
   5. Deduplication
 
 ### Exploratory Data Analysis
+---
+EDA questions that were asked to shape these two dashboard pages were:
+1. What is our current financial position regarding total profitability?
+2. Who are our top-performing sales professionals, and what is their primary driver of success—sales volume (units) or high-ticket value (revenue)?
+3. How evenly is our sales volume distributed across our product categories, or are we dangerously reliant on a single category?
+4. Which specific items are our absolute volume drivers, and which products populate our "Top 10" list?
+5. Which physical store locations are generating the highest revenue, and which ones are underperforming and require operational support?
+6. How do our sales metrics shift when we filter specifically for certain geographic territories or specific historical years?
+
+
+### Resuts or FIndings
+---
+1. Volume vs. Value Strategy Disparity Among Sales Staff:
+   - An analysis of the salesperson performance table reveals a clear contrast in sales strategies. Jane Smith sold the highest volume of products (2,705 units) but generated the lowest total revenue ($145,520.00).
+   - Alice Brown sold the lowest volume (2,551 units) but achieved the highest total revenue ($156,248.00). This indicates that Alice Brown is successfully pushing high-value
+2. Highly Stable and Balanced Product Portfolio
+   - The Sales by Product Category pie chart demonstrates a remarkably uniform distribution of sales volume across all four segments
+   - Category C leads slightly at 26.55% (291 units), followed closely by Category D at 25.36%, Category A at 24.36%, and Category B at 23.72%.
+3. Clear Revenue Hierarchy Among Retail Locations
+   - The Revenue by Store bar chart outlines a distinct performance gap between individual physical branches.
+   - Store D stands out as the primary revenue generator for the company, followed sequentially by Store B and Store C.
+   - Store A lags significantly behind the others as the lowest-performing branch.
+4. Short-Term Volatility vs. Long-Term Stagnation
+   - The executive KPI cards on Page 2 highlight a conflict between short-term performance and annual growth.
+  
+### Recommedations
+---
+1. Optimize Store A’s Operational Performance
+   - Conduct an operational audit on Store A to identify the root cause of the underperformance (e.g., poor foot traffic, local competitor pricing, or inventory mismatches).
+  
+2. Implement Strategic Sales Coaching & Incentive Alignment
+   - Pair Jane and Alice for a peer-coaching initiative. Alice can train Jane on upselling techniques and pitching premium, high-margin items.
+  
+3. Leverage the Balanced Product Portfolio for Cross-Selling
+   - Because no single product category dominates customer interest, implement cross-category bundling strategies. For example, create promotional packages that bundle a Category C item (the slight leader) with a slower-moving, high-margin item from Category B to increase the Average Order Value (AOV) without alienating any customer segment.
+
+
+     
 
