@@ -1,4 +1,13 @@
 # Sales Analysis for Retail
+
+## Table of Content
+
+- [Project Overview](#project-overview)
+- [Tools](#tools)
+- [Data Cleaning](#data-cleaning)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Results or Findings](#results-or-findings)
+- [Recommendations](#recommendations)
  
 ### Project Overview
 ---
@@ -65,7 +74,7 @@ EDA questions that were asked to shape these two dashboard pages were:
 6. How do our sales metrics shift when we filter specifically for certain geographic territories or specific historical years?
 
 
-### Resuts or FIndings
+### Results or Findings
 ---
 1. Volume vs. Value Strategy Disparity Among Sales Staff:
    - An analysis of the salesperson performance table reveals a clear contrast in sales strategies. Jane Smith sold the highest volume of products (2,705 units) but generated the lowest total revenue ($145,520.00).
@@ -80,7 +89,7 @@ EDA questions that were asked to shape these two dashboard pages were:
 4. Short-Term Volatility vs. Long-Term Stagnation
    - The executive KPI cards on Page 2 highlight a conflict between short-term performance and annual growth.
   
-### Recommedations
+### Recommendations
 ---
 1. Optimize Store A’s Operational Performance
    - Conduct an operational audit on Store A to identify the root cause of the underperformance (e.g., poor foot traffic, local competitor pricing, or inventory mismatches).
